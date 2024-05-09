@@ -20,7 +20,7 @@
   </style>
 </head>
 <body>
-  <h1>memo編集画面</h1>
+  <h1>memo新規作成画面</h1>
   <table>
     <thead>
       <tr>
@@ -36,7 +36,7 @@
       </tr>
     </tbody>
   </table>
-  <button>更新</button>
+  <button>新規登録</button>
   <button type="button" onClick="history.back()">戻る</button>
 </body>
 </html>

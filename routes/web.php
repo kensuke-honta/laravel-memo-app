@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', [MemoController::class, 'showIndex']);
-Route::get('/detail', [MemoController::class, 'detail']);
-Route::get('/update', [MemoController::class, 'update']);
+Route::get('/home', [MemoController::class, 'home']);
+Route::get('/index', [MemoController::class, 'showIndex']) ->name('memo.showIndex');
+Route::get('/create', [MemoController::class, 'create']) ->name('memo.create');
+Route::get('/detail', [MemoController::class, 'detail']) ->name('memo.detail');
+Route::get('/update', [MemoController::class, 'update']) ->name('memo.update');
