@@ -36,7 +36,7 @@
         <td>メモの題名1</td>
         <td>メモの詳細1</td>
         <td>
-          <a href="{{ route('memo.detail') }}">編集する</a>
+          <a href="{{ route('memo.detail') }}">詳細・編集</a>
         </td>
       </tr>
       <!-- データはここまで -->

@@ -20,7 +20,7 @@
   </style>
 </head>
 <body>
-  <h1>一覧表示画面</h1>
+  <h1>詳細画面</h1>
   <table>
     <thead>
       <tr>
