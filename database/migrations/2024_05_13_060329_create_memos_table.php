@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('memos', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->string('text');
+            $table->bigIncrements('id');
+            $table->string('title',100);
+            $table->text('content');
             $table->timestamps();
         });
     }

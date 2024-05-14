@@ -15,7 +15,7 @@ class MemoSeeder extends Seeder
         Memo::create([
             'id' => '1',
             'title' => 'hoge',
-            'text' => 'testText'
+            'content' => 'testText'
         ]);
     }
 }
